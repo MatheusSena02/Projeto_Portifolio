@@ -10,6 +10,34 @@
     padding: 0px;
 }
 
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+    gap: 5rem;
+}
+
+.cabecalho__links{
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: var(--cor-texto-secundaria);
+    display: inline;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0% 1.8%;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 3px solid transparent;
+    border-radius: 0.5rem;
+}
+
+.cabecalho__links:hover{
+    background-color: #d78271;
+}
 body{
     box-sizing: border-box;
     overflow: scroll;
@@ -20,7 +48,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 12%;
+    margin: 11%;
+    margin-top: 4%;
+    width: auto;
 }
 
 .principal__conteudo{
@@ -41,7 +71,7 @@ body{
     font-weight: 700;
     font-style: bold;
     color: var(--cor-texto-primaria);
-    font-size: 1.375rem;
+    font-size: 1.3rem;
 }
 
 .principal__conteudo__lista__titulo{
@@ -57,7 +87,7 @@ body{
     font-family: var(--fonte-principal);
     font-style: normal;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--cor-texto-secundaria);
 }
 
@@ -86,4 +116,48 @@ body{
 
 strong{
     color: var(--cor-texto-secundaria);
+}
+
+.principal__conteudo__botoes{
+    display: flex;
+    padding-top: 4%;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.principal__conteudo__botoes__links{
+    padding: 3% 10%;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    width: 9.375rem;
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-size: 1.8rem;
+    color: var(--cor-texto-secundaria);
+    border: 3px solid var(--cor-texto-primaria);    
+    border-radius: 0.35rem;  
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.principal__conteudo__botoes__links:hover{
+    background-color: var(--cor-texto-secundaria);
+    color: var(--cor-background);
+    border: 3px solid var(--cor-texto-secundaria);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding: 1.5%;
+    background-color: var(--cor-texto-secundaria);
+}
+
+.rodape__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cor-texto-primaria);
 }
