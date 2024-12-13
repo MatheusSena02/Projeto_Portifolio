@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+:root{
+    --fonte-principal: "Space Grotesk", serif;
+    --cor-background: #C8553D;
+    --cor-texto-primaria: #F28F3B;
+    --cor-texto-secundaria: #FFFFFF;
+}
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    overflow: scroll;
+    background-color: var(--cor-background);
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12%;
+}
+
+.principal__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.principal__conteudo__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--cor-texto-primaria);
+}
+
+.principal__conteudo__subtitulo{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-style: bold;
+    color: var(--cor-texto-primaria);
+    font-size: 1.375rem;
+}
+
+.principal__conteudo__lista__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.5rem;
+    color: var(--cor-texto-primaria);
+}
+
+.principal__conteudo__lista__conteudo{
+    padding: 2% 8%;
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: var(--cor-texto-secundaria);
+}
+
+.principal__conteudo__letreiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__conteudo__letreiro{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-style: medium;
+    color: var(--cor-texto-primaria);
+}
+
+.principal__conteudo__letreiro__links{
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-style: bold;
+    color: var(--cor-texto-secundaria);
+    display: flex;
+    gap: 1.5rem;
+}
+
+strong{
+    color: var(--cor-texto-secundaria);
+}
