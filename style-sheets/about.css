@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+:root{
+    --fonte-principal: "Space Grotesk", serif;
+    --cor-background: #C8553D;
+    --cor-texto-primaria: #F28F3B;
+    --cor-texto-secundaria: #FFFFFF;
+}
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--cor-texto-secundaria);
+}
+
+.caixadetexto{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 0.3rem;
+}
+
+strong{
+    color: var(--cor-texto-primaria);
+    font-weight: 600;
+}
+.caixadetexto__descricao{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1%;
+    color: var(--cor-texto-secundaria);
+}
+
+.imagens__fotoclube{
+    float: right;
+    margin-top: -70%;
+    margin-right: -3%;
+}
+
+.imagens__fotocompeticao{
+    float: right;
+    margin-top: -39%;
+    margin-right: -3%;
+}

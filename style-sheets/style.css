@@ -48,15 +48,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 11%;
-    margin-top: 4%;
+    margin: 7%;
+    margin-top: 2.5%;
     width: auto;
 }
 
 .principal__conteudo{
     display: flex;
     flex-direction: column;
-    gap: 1.3rem;
+    gap: 1.8rem;
 }
 
 .principal__conteudo__titulo{
@@ -87,7 +87,7 @@ body{
     font-family: var(--fonte-principal);
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--cor-texto-secundaria);
 }
 
@@ -100,6 +100,7 @@ body{
 .principal__conteudo__letreiro{
     font-family: var(--fonte-principal);
     font-weight: 600;
+    font-size: 1.9rem;
     font-style: medium;
     color: var(--cor-texto-primaria);
 }
@@ -130,8 +131,10 @@ strong{
     padding: 3% 10%;
     display: inline;
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 9.375rem;
+    width: 12rem;
+    height: 5rem;
     text-decoration: none;
     font-family: var(--fonte-principal);
     font-size: 1.8rem;
